@@ -1,0 +1,84 @@
+.operator > div {
+    background-color: #E7E7E7;
+    width: 78px;
+    height: 80px;
+    border: solid 1px #A9A9A9;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operator {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+.op.active {
+    background-color: aquamarine;
+}
+
+
+.number > div {
+    background-color: #FFFFFF;
+    width: 78px;
+    height: 80px;
+    border: 1px solid #A9A9A9;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+}
+
+.zero {
+    border-radius: 0px 0px 0px 10px;
+}
+
+.equal > div {
+    background-color: #FA8664;
+    width: 78px;
+    height: 326px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.equal {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80px;
+}
+
+#pad {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+}
+
+#display > div {
+    background-color: black;
+    width: 320px;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#displayValue > div {
+    color: white;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+#displayValue {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
